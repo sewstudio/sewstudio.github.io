@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sew Studio Catalog</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+    }
+
+    header {
+      background-color: #d35400;
+      /* Pumpkin Orange */
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .product {
+      width: 30%;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 15px;
+      box-sizing: border-box;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      color: #2c3e50;
+      /* Dark Slate Gray */
+    }
+
+    p {
+      color: #7f8c8d;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #d35400;
+      /* Pumpkin Orange */
+      color: #fff;
+      padding: 8px 12px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9em;
+    }
+
+    button:hover {
+      background-color: #e67e22;
+      /* Carrot Orange */
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .product {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .product {
+        width: 100%;
+      }
+    }
+
+    /* Floating button styles */
+    .contact-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #d35400;
+      /* Pumpkin Orange */
+      color: #fff;
+      padding: 15px;
+      border: none;
+      border-radius: 30%;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .contact-button:hover {
+      background-color: #e67e22;
+      /* Carrot Orange */
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Sew Studio</h1>
+    <p style="color: white;">Please DM on instagram to place order</p>
+  </header>
+
+  <section>
+    <div class="product">
+      <img src="images/IMG_3554.jpg" alt="Earrings">
+      <h2>Lace Double Layer Bow Hair Clip</h2>
+      <p>₹150 each</p>
+      <p>More prints and color available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_8689.jpg" alt="Handbag">
+      <h2>Organza Bow Hair Clip</h2>
+      <p>₹99 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_3548.jpg" alt="Scarf">
+      <h2>Organza Scarf Double Layer Bow Hair Clip</h2>
+      <p>₹150 each</p>
+      <p>More prints and color available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_2987.jpg" alt="Scarf">
+      <h2>Double Layer Thick Satin Bow Hair Clip</h2>
+      <p>₹99 each</p>
+      <p>21 colors available for customisation</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_3564.jpg" alt="Scarf">
+      <h2>Butterfly Hair Clip</h2>
+      <p>₹69 each</p>
+      <p>More prints and color available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_0100.jpg" alt="Scarf">
+      <h2>Pigtail Bow Hair Clip Thick Satin</h2>
+      <p>₹99 each</p>
+      <p>21 colors available for customisation</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_1077.jpg" alt="Scarf">
+      <h2>Dual Color Hair Clip</h2>
+      <p>₹80 each</p>
+      <p>21 colors available for customisation</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_2236.jpg" alt="Scarf">
+      <h2>Triple Layer Bow Hair Clip</h2>
+      <p>₹150 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_0199.jpg" alt="Scarf">
+      <h2>Mermaid Bow Tail Hair Clip</h2>
+      <p>₹99 each</p>
+      <p>6 colors available for customisation</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_0200.JPG" alt="Scarf">
+      <h2>Long Tail Bow Hair Clip</h2>
+      <p>₹99 each</p>
+      <p>Fabric - Crepe</p>
+      <p>25 colors available for customisation</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_3011.jpg" alt="Scarf">
+      <h2>Printed Bow Hair Clip</h2>
+      <p>₹120 each</p>
+      <p>More prints available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_0201.jpg" alt="Scarf">
+      <h2>Double Layer Hair Clip</h2>
+      <p>₹99 each</p>
+      <p>More colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_8817.jpg" alt="Scarf">
+      <h2>Lace Bow Hair Clip</h2>
+      <p>₹150 each</p>
+      <p>More colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_1275.jpg" alt="Scarf">
+      <h2>Crushed Net Shimmer Bow Hair Clip</h2>
+      <p>₹120 each</p>
+      <p>More colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_2987.jpg" alt="Scarf">
+      <h2>Net Shimmer Bow Hair Clip</h2>
+      <p>₹150 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_3677.jpg" alt="Scarf">
+      <h2>Organza Scarf Bow Hair Clip</h2>
+      <p>₹120 each</p>
+      <p>More prints available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_9706.jpg" alt="Scarf">
+      <h2>Velvet Tail Bow Hair Clip</h2>
+      <p>₹199 each</p>
+      <p>10 colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_7119.jpg" alt="Scarf">
+      <h2>XL Pigtail Bow Hair Clip</h2>
+      <p>₹150 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_1545.jpg" alt="Scarf">
+      <h2>Net Shimmer Pigtail Hair Clip</h2>
+      <p>₹80 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_9476.jpg" alt="Scarf">
+      <h2>Crushed Net Shimmer Double Layer Bow Hair Clip</h2>
+      <p>₹99 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_3321.jpg" alt="Scarf">
+      <h2>Bow Hair Clip Double Layer</h2>
+      <p>₹120 each</p>
+      <p>Mini - ₹99 each pair</p>
+      <p>More prints available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_4073.jpg" alt="Scarf">
+      <h2>Butterfly Solid Hair Clip</h2>
+      <p>₹45 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_6263.jpg" alt="Scarf">
+      <h2>Lace Long Bow Tail Hair Clip</h2>
+      <p>₹199 each</p>
+      <p>More colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_4074.jpg" alt="Scarf">
+      <h2>Heart Solid Hair Clip</h2>
+      <p>₹45 each</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_1409.jpg" alt="Scarf">
+      <h2>Lace Scarf Bow Hair Clip</h2>
+      <p>₹150 each</p>
+      <p>More colors available</p>
+    </div>
+  </section>
+  <section>
+    <div class="product">
+      <img src="images/IMG_4075.jpg" alt="Scarf">
+      <h2>Solid Hair Clip</h2>
+      <p>₹45 each</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Sew Studio's Catalog</p>
+  </footer>
+
+  <!-- Floating Contact Us Button -->
+  <a href="https://www.instagram.com/m/sew_studio_/" class="contact-button">Place Order</a>
+
+</body>
+
+</html>
